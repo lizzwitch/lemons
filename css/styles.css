@@ -1,0 +1,53 @@
+nav#menu li {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-decoration: none;
+  margin: 1%;
+}
+#menu {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  height: 40px;
+  text-align: right;
+}
+nav#menu a {
+  color: #990000;
+  padding: 3%;
+  margin-top: 1%
+}
+
+nav#menu a:hover{
+  border-bottom: 3px solid #990000;
+}
+
+header {
+  background: #88AF5C;
+  border-bottom: 3px dashed white;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  
+  font-size: 1.2em;
+  color: white;
+  margin-left: 1em;
+  padding: 5px;
+  display: block;
+}
+
+footer {
+  background: #88AF5C;
+  width:relative;
+  height: 160px;
+  padding: 20px;
+  color: white;
+  font-size: 1em;
+  clear: both;
+  text-align: center;
+  border-top: 3px;
+  margin-top: 3em;
+}
+
+
+
