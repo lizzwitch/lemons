@@ -24,14 +24,14 @@ li {
   text-transform: uppercase;
   text-decoration: none;
 }
-a:hover {
+.menu-hover:hover {
   background: #404853;
   box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   color: #40485;
   
 }
-li:first-child a {
+li:first-child a{
   border-left: none;
   border-radius: 4px 0 0 4px;
 }
@@ -58,6 +58,7 @@ ul{
 ul#menu li{
 	float:left;
     position:relative;
+	
 }
 
 ul#menu ul {
@@ -84,8 +85,12 @@ nav {
   font-size: 11px;
   font-weight: bold;
   padding: 0 20px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
   line-height: 38px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+  border-radius: 4px 4px 4px 4px;
 }
 
 /****HEADER***/
@@ -144,7 +149,7 @@ footer img{
 /****CONTACT FORM****/
 form {
 		background:#FFDA82 url('img/letter_bg.png');	
-		height:210px;
+		height:230px;
 		width:400px;
 		margin:0px auto;
 		padding:20px; 
@@ -156,14 +161,14 @@ form {
 label {
 			margin: 11px 20px 0 0; 
 			font: 16px normal normal uppercase helvetica, arial, serif; 
-			color: #FFFF;
+			color: #63605C;
 			text-shadow: 0px 1px 0px #fff;
 		}
 		
 input[type=text], textarea {
 			font: 14px normal normal uppercase helvetica, arial, serif;
 			color: #7c7873;
-			background:none;
+			background:#FFE199;
 			width: 380px; height: 36px; padding: 0px 10px; margin: 0 0 10px 0;
 			border:1px solid #f8f5f1;
 			border-radius: 5px;
@@ -176,6 +181,17 @@ textarea {
 
 textarea:focus, input[type=text]:focus {
 background:#FFECBF;
+}
+
+#send-button {
+	float:right;
+	font-size:20px; 
+	color: #7c7873;
+	text-shadow:0 1px 0 #fff;
+	width:25%; 
+	text-align:center;
+	opacity:1;
+	cursor: pointer;
 }
 
 /****OBJECT INFO****/
